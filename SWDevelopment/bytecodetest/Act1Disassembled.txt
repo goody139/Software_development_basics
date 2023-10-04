@@ -1,0 +1,35 @@
+// Compiled from Act1.java (version 1.7 : 51.0, super bit)
+public class bytecodetest.Act1 {
+  
+  // Method descriptor #6 ()V
+  // Stack: 1, Locals: 1
+  public Act1();
+    0  aload_0 [this]
+    1  invokespecial java.lang.Object() [8]
+    4  return
+      Line numbers:
+        [pc: 0, line: 3]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: bytecodetest.Act1
+  
+  // Method descriptor #6 ()V
+  // Stack: 2, Locals: 1
+  public static void doMathForever();
+     0  iconst_0
+     1  istore_0 [i]
+     2  iinc 0 1 [i]
+     5  iload_0 [i]
+     6  iconst_2
+     7  imul
+     8  istore_0 [i]
+     9  goto 2
+      Line numbers:
+        [pc: 0, line: 6]
+        [pc: 2, line: 8]
+        [pc: 5, line: 9]
+        [pc: 9, line: 7]
+      Local variable table:
+        [pc: 2, pc: 12] local: i index: 0 type: int
+      Stack map table: number of frames 1
+        [pc: 2, append: {int}]
+}
